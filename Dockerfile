@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # backend/Dockerfile
 
 # Use official Python image
