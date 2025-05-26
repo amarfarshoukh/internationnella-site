@@ -1,4 +1,4 @@
-https://internationnella-site.vercel.app/ 
+https://internationnella-site.vercel.app/
 
 #each time I should push to github I do this(in the terminal t7t) : 
 git add .
