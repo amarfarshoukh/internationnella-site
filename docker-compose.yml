@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: '3'
 services:
   backend:
@@ -12,3 +13,19 @@ services:
       - ./frontend:/usr/share/nginx/html:ro
     ports:
       - "8080:80"
+=======
+version: '3'
+services:
+  backend:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+  frontend:
+    image: nginx:alpine
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+    ports:
+      - "8080:80"
+>>>>>>> 415a570 (Initial commit)

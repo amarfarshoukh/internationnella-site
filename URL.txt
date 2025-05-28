@@ -1,0 +1,12 @@
+
+https://internationnella-site.vercel.app/
+
+#each time I should push to github I do this(in the terminal t7t) : 
+git add .
+git commit -m "Update site content"
+git push origin main
+
+
+#to build the docker(in the terminal t7t):
+docker-compose down        
+docker-compose up --build 
